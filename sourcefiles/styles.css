@@ -47,6 +47,74 @@ footer{
     
 }
 
+.page-title{
+    color: #003366;
+    text-align: center;
+    
+}
+
+.login{
+    background-color: #d4d4d4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 8px #999999;
+}
+
+.password-container, .username-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-button{
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+  
+}
+
+.login-button-container{
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.login-button:hover{
+    background-color: #006600;
+}
+
+#forgot-password{
+    color: #004080;
+    text-decoration: none;
+    
+}
+
+#forgot-password:hover{
+    text-decoration: underline;
+}
+
+.forgot-password-container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#password, #username{
+    background-color: lightyellow;
+    padding: 4px;
+    border-radius: 5px;
+    border-color: darkgray;
+    text-align: center;
+}
+
 
 main{
     margin: 0;
