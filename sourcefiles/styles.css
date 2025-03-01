@@ -38,7 +38,6 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
 }
 
 ul{
@@ -53,8 +52,7 @@ ul{
 .index-main-content{
     background-color: #d4d4d4;
     text-align: center;
-    padding: 20px;
-    
+    padding: 20px;    
 }
 
 .page-title{
@@ -70,8 +68,8 @@ ul{
     flex-wrap: nowrap;
     text-align: center;
     padding: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
     border-radius: 30px;
     box-shadow: 5px 5px 8px #999999;
 }
@@ -119,8 +117,9 @@ ul{
 
 #password, #username{
     background-color: lightyellow;
-    padding: 4px;
+    padding: 10px;
     border-radius: 5px;
+    border: 3px solid;
     border-color: darkgray;
     text-align: center;
 }
@@ -176,6 +175,132 @@ ul{
     background-color: #821b1b;
 }
 
+.quiz-info{
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.quiz-info h2{
+    color: #004080;
+}
+
+.form-table{
+    border: 0px;
+    border-collapse: collapse;
+    column-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.choice-button-1{
+    background-color: #cacaca;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    width: 300px;
+    max-width: 300px;
+    column-span: 1;
+}
+
+.question{
+    text-align: center;
+}
+
+.banner{
+    width: 100%;
+    height: 150px;
+}
+
+.choice-button-2{
+    background-color: #cacaca;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    max-width: 300px;
+    column-span: 1;
+}
+
+.submit-button{
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.submit-button:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+.submit-table-data{
+    text-align: center;
+}
+
+.finish-quiz{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.finish-quiz a button{
+    background-color: #D32F2F;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+.finish-quiz a button:hover{
+    background-color: #821b1b;
+}
+
+.table-header{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 36px;
+}
+
+.leaderboard tr:nth-child(odd){
+    background-color: #f9f9f9;
+}
+
+.leaderboard tr:nth-child(even){
+    background-color: #e4e2e2;
+}
+
+.leaderboard tr:nth-child(3){
+    background-color: #FFD700;
+}
+
+.leaderboard tr:nth-child(4){
+    background-color: #C0C0C0;
+}
+
+.leaderboard tr:nth-child(5){
+    background-color: #C0C0C0;
+}
+
+.leaderboard tr:nth-child(6){
+    background-color: #CD7F32;
+}
+
+.leaderboard{
+    text-align: center;
+    width: 100%;
+}
+
+.leaderboard tr td img{
+    border-radius: 100%;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
 
 main{
     margin: 0;
